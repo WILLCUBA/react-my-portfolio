@@ -5,22 +5,22 @@ function Resume() {
         
         <div className="container mt-5">
             <div className="row">
-                <div className="col-12 d-flex justify-content-center"><a href={require("../../assets/docs/WilliamPortfolio.pdf")} download="WilliamPortfolio">Download my resume</a></div>
-                <div className="col-12 d-flex justify-content-start">
-                    <section className="skills">
-                        <h3>Skills</h3>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>NODE</li>
-                            <li>TDD</li>
-                            <li>SQL/MySQL</li>
-                            <li>Python</li>
-                            <li>MVC</li>
-                            <li>GIT</li>
-                            <li>MERN</li>
-                            <li>NoSql/MongoDB</li>
+                <div className="col-12 btn btn-outline-secondary w-50 m-auto"><a href={require("../../assets/docs/WilliamPortfolio.pdf")} download="WilliamPortfolio">Download my resume</a></div>
+                <div className="col-12 d-flex justify-content-start mt-5">
+                    <section className="skills m-auto">
+                        <h3 className="dark-color">Skills</h3>
+                        <ul className="list-group">
+                            <li className="list-group-item">HTML5</li>
+                            <li className="list-group-item">CSS</li>
+                            <li className="list-group-item">JavaScript</li>
+                            <li className="list-group-item">NODE</li>
+                            <li className="list-group-item">TDD</li>
+                            <li className="list-group-item">SQL/MySQL</li>
+                            <li className="list-group-item">Python</li>
+                            <li className="list-group-item">MVC</li>
+                            <li className="list-group-item">GIT</li>
+                            <li className="list-group-item">MERN</li>
+                            <li className="list-group-item">NoSql/MongoDB</li>
                         </ul>
                     </section>
                 </div>
