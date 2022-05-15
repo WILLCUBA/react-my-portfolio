@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState} from 'react';
 import Nav from './components/Nav';
 import AboutMe from './components/About-Me';
-import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Projects from './components/Project';
 
 function App() {
 
@@ -20,7 +20,9 @@ function App() {
     }
     if (currentPage === "Portfolio") {
       return (
-        <Portfolio></Portfolio>
+        <section className="portfolio">
+          <Projects></Projects>
+        </section>
       )
     }
     if (currentPage === "Contact") {
@@ -49,7 +51,7 @@ function App() {
         <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
         {renderPage()}
       </header>
-        <Footer></Footer>
+      <Footer></Footer>
     </div>
   );
 }
